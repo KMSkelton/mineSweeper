@@ -62,6 +62,20 @@ function gameOver() {
   alert("Game over")
 }
 
+function checkWin() {
+  let squaresLeft = 0
+  for (let i = 0; i < cols; i++) {
+    for (let j = 0; j < rows; j++) {
+      if (grid[i][j].revealed == false) {
+        squaresLeft ++
+      }
+    }
+  }
+  if (squaresLeft == totalOrcs) {
+    alert("You won!!")
+  }
+}
+
 function mousePressed() {
   for (let i = 0; i < cols; i++) {
     for (let j = 0; j < rows; j++) {
@@ -69,6 +83,8 @@ function mousePressed() {
         grid[i][j].reveal()
         if(grid[i][j].orc){
           gameOver();
+        } else {
+          checkWin();
         }
       }
     }
@@ -82,5 +98,4 @@ function draw() {
       grid[i][j].show();
     }
   }
-
 }
