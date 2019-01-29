@@ -1,0 +1,17 @@
+body {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  width: 50%;
+}
+h1, h2, h3, p {
+  font-family: sans-serif;
+}
+main {
+  text-align: center;
+}
+canvas {
+  margin-top: 5rem;
+}

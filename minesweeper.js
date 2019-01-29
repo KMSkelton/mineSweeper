@@ -59,7 +59,7 @@ function gameOver() {
       grid[i][j].revealed = true;
     }
   }
-  alert("Game over")
+  alert("They caught you!")
 }
 
 function checkWin() {
@@ -72,7 +72,7 @@ function checkWin() {
     }
   }
   if (squaresLeft == totalOrcs) {
-    alert("You won!!")
+    alert("You did it! Report back quickly.")
   }
 }
 
