@@ -36,7 +36,6 @@ function setup() {
   }
   for (let n = 0; n < totalOrcs; n++){
     const index = floor(random(options.length))
-    console.log(' :',index);
     const choice = options[index]
     const i = choice[0]
     const j = choice[1]
