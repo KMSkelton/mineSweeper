@@ -1,4 +1,16 @@
+canvas {
+  display: block;
+  margin: 0 auto;
+}
+#title {
+  display: inline-block;
+  position: relative;
+  left: 47%;
+}
+
 #reset {
   position: fixed;
   top: 22em;
+  left: 49%;
+  right: 50%;
 }
