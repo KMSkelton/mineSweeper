@@ -1,0 +1,8 @@
+canvas {
+  display: inline-block;
+}
+
+#reset {
+  position: absolute;
+  top: 50%;
+}
