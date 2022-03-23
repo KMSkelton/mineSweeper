@@ -10,6 +10,7 @@ canvas {
 
 #reset {
   position: fixed;
+  width: 3em;
   top: 22em;
   left: 49%;
   right: 50%;
